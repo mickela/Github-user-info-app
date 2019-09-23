@@ -1,0 +1,112 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+ul.nav{
+    position: fixed;
+    width: 100vw;
+    list-style: none;
+    background-color: rgba(21, 212, 226, 0.801);
+    height: 3rem;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 3rem;
+    box-shadow: 0 1rem 3rem rgba(65, 4, 4, 0.175) !important;
+}
+div.search{
+    text-align: center;
+    background-color: rgb(182, 124, 240);
+    padding: 3rem;
+    min-width: 80vw;
+    /* box-shadow: 0 1rem 3rem rgba(65, 4, 4, 0.175) !important; */
+}
+.container{
+    margin-top: -2rem;
+}
+div span.title{
+    display: block;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: lighter;
+    letter-spacing: 0.5rem;
+    padding: 2rem;
+}
+input.search-box{
+    display: block;
+    margin: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    border: none;
+    min-width: 15rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+input.search-btn{
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    color: rebeccapurple;
+    font-weight: bold;
+    cursor: pointer;
+}
+#loader{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#loader > img{
+    width: 350px;
+}
+.profile-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 5.75rem;
+    margin: 2rem;
+}
+.img-div{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-div > span{
+    display: block
+}
+.bold{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.user{
+    font-family: monospace;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    color: blue;
+}
+.reposlist{}
+.list-item{
+    background-color: rgba(128, 128, 128, 0.178);
+    border-radius: 0.75rem;
+    padding: 1rem;
+    width: 35rem;
+    margin: 1rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 1rem 1rem rgba(65, 4, 4, 0.041) !important;
+}
+@media screen and (max-width: 749px){
+    .list-item{
+        max-width: 19rem;
+    }
+}
+.repo-title{
+    text-transform: capitalize;
+}
+.repo-desc{}
+.repo-link-para{}
+.repo-link{}
