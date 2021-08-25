@@ -87,7 +87,7 @@ a{
     letter-spacing: 0.2rem;
     color: blue;
 }
-.reposlist{}
+/* .reposlist{} */
 .list-item{
     background-color: rgba(128, 128, 128, 0.178);
     border-radius: 0.75rem;
@@ -107,6 +107,6 @@ a{
 .repo-title{
     text-transform: capitalize;
 }
-.repo-desc{}
+/* .repo-desc{}
 .repo-link-para{}
-.repo-link{}
+.repo-link{} */
